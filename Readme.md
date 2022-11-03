@@ -18,9 +18,8 @@ File `finalized_model.sav` has saved `LinearRegression` model.
 
 ## Learning curves:
 #### Linear regression
+<img width="409" alt="Screenshot 2022-11-03 at 17 47 30" src="https://user-images.githubusercontent.com/43992068/199783049-0aba818f-f75a-4257-be47-0045039c96d5.png">
 
-![](../../../../var/folders/6w/rfwlz_6d763cr2n0vkv1w1vh0000gn/T/TemporaryItems/NSIRD_screencaptureui_oMhQqV/Screenshot 2022-11-03 at 17.41.25.png)
 
 #### NN
-
-![](../../../../var/folders/6w/rfwlz_6d763cr2n0vkv1w1vh0000gn/T/TemporaryItems/NSIRD_screencaptureui_U0KPqW/Screenshot 2022-11-03 at 17.42.15.png)
+<img width="627" alt="Screenshot 2022-11-03 at 16 40 24" src="https://user-images.githubusercontent.com/43992068/199783007-9b851e65-75a7-43ec-b1b0-515f5a2ccb72.png">
