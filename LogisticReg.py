@@ -28,12 +28,12 @@ def logistic_regression(custom_train_ds, classes):
 
     logisticRegr = preload_model(filename)
 
-    if not logisticRegr:
-        logisticRegr = LogisticRegression(solver='lbfgs', max_iter=100)
-
-        logisticRegr.fit(x_train, y_train)
-
-        pickle.dump(logisticRegr, open(filename, 'wb'))
+    # if not logisticRegr:
+    #     logisticRegr = LogisticRegression(solver='lbfgs', max_iter=100)
+    #
+    #     logisticRegr.fit(x_train, y_train)
+    #
+    #     pickle.dump(logisticRegr, open(filename, 'wb'))
 
     predict = logisticRegr.predict(x_test)
     print(predict)

@@ -38,7 +38,7 @@ On the next stage a dropout layer was introduced to mitigate risks of network ov
 
 **Result:** neural network with introduced dropout layer did not show significant increase in classification precision – the result was improved by 1-1.5% of validation accuracy. This is possible because training dataset is not too big to introduce overfitting of the neural network.
 
-On the last stage of the task a variable learning rate was introduced. This change did not show any significant impact on the overall classification precision. During this stage we could noticed, that acuuracy value wasn't increasing so fast, the range was about 0.0015 - 0.003 for a one epoch.
+On the last stage of the task a variable learning rate was introduced. This change did not show any significant impact on the overall classification precision. During this stage we could notice, that accuracy value wasn't increasing so fast, the range was about 0.0015 - 0.003 for an epoch.
 
 **Result:** the highest achieved classification precision with training dataset of 200.000 items is 91% and traingng accuracy is near is 95%.
 
