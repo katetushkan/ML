@@ -1,3 +1,5 @@
+Katsiaryna Tushynskaya, 256241
+
 # ML labs
 
 In this repository you can find a realization for diffrent ML problems which is a practice part of the Machine Learning class.
