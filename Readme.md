@@ -22,10 +22,25 @@ File `finalized_model.sav` has saved `LinearRegression` model.
 5. Build a classifier
 6. Display learning curve
 
-## Learning curves:
-#### Linear regression
+### Learning curves:
 <img width="409" alt="Screenshot 2022-11-03 at 17 47 30" src="https://user-images.githubusercontent.com/43992068/199783049-0aba818f-f75a-4257-be47-0045039c96d5.png">
 
 
-#### NN
+## Lab2: Image classification (DNN)
+In this stage a deep neural network was designed and implemented to solve image classification task with increased accuracy. Designed netowrk consists of 3 inner layers alongside with some utilitary steps. A different layer configurations were used to achieve the highest possible classification precision. Inner layers utilize **ReLU** (rectified linear unit) activation function.
+
+### Learning curves:
 <img width="627" alt="Screenshot 2022-11-03 at 16 40 24" src="https://user-images.githubusercontent.com/43992068/199783007-9b851e65-75a7-43ec-b1b0-515f5a2ccb72.png">
+
+**Result:** average validation precision score with training dataset of 200.000 items is approx 10% higher than in task #1.
+
+On the next stage a dropout layer was introduced to mitigate risks of network overfitting. Network was trained and validated with different combination of 1 to 3 dropout layers using various parameters.
+
+**Result:** neural network with introduced dropout layer did not show significant increase in classification precision – the result was improved by 1-1.5% of validation accuracy. This is possible because training dataset is not too big to introduce overfitting of the neural network.
+
+On the last stage of the task a variable learning rate was introduced. This change did not show any significant impact on the overall classification precision. During this stage we could noticed, that acuuracy value wasn't increasing so fast, the range was about 0.0015 - 0.003 for a one epoch.
+
+**Result:** the highest achieved classification precision with training dataset of 200.000 items is 91% and traingng accuracy is near is 95%.
+
+### Learning curves:
+![Screenshot 2022-11-09 at 23 18 47](https://user-images.githubusercontent.com/43992068/201393660-262548fc-7cc4-4bd1-9095-7e795bf84102.png)
