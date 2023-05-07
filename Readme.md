@@ -69,6 +69,7 @@ For the 2nd semester it was chosen to proceed education process with CNN – Сo
 
 For the first task a CNN with two convolutional layers and one Dense layer to classify images of the first 10 letters from the alphabet (A to J) was build. The partial-linear activator was required for this task.
 
+<img width="1347" alt="Screenshot 2023-05-07 at 21 03 17" src="https://user-images.githubusercontent.com/43992068/236701087-f9d56ee3-1c38-4314-ba6e-9cdae1d7edad.png">
 
 **Result:** average validation precision score with training dataset of 200.000 items is 94%. 
 
@@ -76,6 +77,8 @@ Applying the partial-linear activation function to the convolutional layers may 
 
 ### Task 2
 The second task was to replace conv layers with Pooling.
+
+<img width="1340" alt="Screenshot 2023-05-07 at 21 23 56" src="https://user-images.githubusercontent.com/43992068/236701101-df6f6b1d-02e4-495f-8b57-d552744a7bcb.png">
 
 **Result:** average validation precision score with training dataset of 200.000 items is approx 10% lower than in task #1. 
 
@@ -87,6 +90,8 @@ In general, replacing convolutional layers with pooling layers can affect the ac
 
 ### Task 3
 The 3rd task was to implement LeNet-5 arch.
+
+<img width="1271" alt="Screenshot 2023-05-07 at 21 56 22" src="https://user-images.githubusercontent.com/43992068/236701120-5b360273-e174-44c6-9c9d-8199b5586e01.png">
 
 **Result:** average validation precision score is in range ±3% than task #1 depending on the size of the dataset and epochs amount. 
 
