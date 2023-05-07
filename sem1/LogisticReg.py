@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import learning_curve
 
-from utils import preload_model
+from sem1.utils import preload_model
 
 filename = 'finalized_model.sav'
 
