@@ -3,3 +3,6 @@ run.sh
 
 .DS_Store
 .idea/
+
+notMNIST_large/
+notMNIST_large.tar.gz

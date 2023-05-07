@@ -19,7 +19,7 @@ def neural_network(custom_train_ds, classes):
 
     dataset = tf.data.Dataset.zip((images_ds, labels_ds))
 
-    train_ds, val_ds, control_ds = split_ds_nn(dataset, 200000, 19000)
+    train_ds, val_ds, control_ds = split_ds_nn(dataset, 5000, 1000)
 
     AUTOTUNE = tf.data.AUTOTUNE
 

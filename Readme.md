@@ -2,7 +2,7 @@ Katsiaryna Tushynskaya, 256241
 
 # ML labs
 
-In this repository you can find a realization for diffrent ML problems which is a practice part of the Machine Learning class.
+In this repository you can find a realization for different ML problems which is a practice part of the Machine Learning class.
 
 ## Lab1: Image classification
 2 approaches of the image classification problem' solving were chosen to take a hands on this work: _Linear Regression_ was implemnted with the help of Sklearn lib, and _Neural Network_ with the help of Tensorflow&Keras resource.
@@ -46,3 +46,40 @@ On the last stage of the task a variable learning rate was introduced. This chan
 
 ### Learning curves:
 ![Screenshot 2022-11-09 at 23 18 47](https://user-images.githubusercontent.com/43992068/201393660-262548fc-7cc4-4bd1-9095-7e795bf84102.png)
+
+
+# Semester 2
+
+## Lab3: Image classification (CNN)
+
+For the 2nd semester it was chosen to proceed educational process with CNN – convolutional Neural Networks.
+
+### Task:
+1. Download dataset.
+2. Divide data into 3 datasets: train, test, validation
+3. Get rid of duplicates
+4. Build a classifier
+   a. 2 Con layers and one Dense
+   b. Replace conv layers with Pooling
+   c. LeNet-5 arch
+5. Make a model's report
+
+For the first task a CNN with two convolutional layers and one Dense layer to classify images of the first 10 letters from the alphabet (A to J) was build. The partial-linear activator was required for this task.
+
+**Result:** average validation precision score with training dataset of 200.000 items is approx 10% higher than in task #1. Applying the partial-linear activation function to the convolutional layers may improve the performance of the model compared to using the standard ReLU activation function, but the performance will depend on the specific dataset and the complexity of the classification task.
+
+The second task was to replace conv layers with Pooling.
+
+**Result:** average validation precision score with training dataset of 200.000 items is approx 10% higher than in task #1. 
+
+This model has significantly fewer parameters than the previous model with convolutional layers, so it may not perform as well. 
+However, the performance will depend on the specific dataset and the complexity of the classification task.
+
+If we replace pooling layers with the maximum function with pooling layers with the average function, the accuracy of the model on test data may decrease delta will be around 3%. In general, replacing convolutional layers with pooling layers can affect the accuracy of the model, and for a specific task, it may be necessary to find the optimal combination of convolutional and pooling layers, as well as other model parameters, to achieve the best accuracy.
+
+
+The 3rd task was to implement LeNet-5 arch.
+
+**Result:** average validation precision score with training dataset of 200.000 items is approx 10% higher than in task #1. 
+LeNet-5 uses a series of convolutional and pooling layers to extract relevant features from input images, which makes it an efficient architecture for image classification.
+
